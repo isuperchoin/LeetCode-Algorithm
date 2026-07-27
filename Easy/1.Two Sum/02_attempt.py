@@ -5,12 +5,12 @@
 #   3. Return the list of comp and i if comp is in the dictionary memo
 #   4. Else, put that element in the memo as a key
 # Refinement: Shorter runtime by using only one loop
-# TakeAway: Learning how to use library data type
+# TakeAway: Learning how to apply library data type
 #================================
 
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
         memo = {}
 
         for i, num in enumerate(nums):
