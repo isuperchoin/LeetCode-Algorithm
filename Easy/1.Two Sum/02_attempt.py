@@ -5,7 +5,7 @@
 #   3. Return the list of comp and i if comp is in the dictionary memo
 #   4. Else, put that element in the memo as a key
 # Refinement: Shorter runtime by using only one loop
-# TakeAway: Learning how to apply library data type
+# TakeAway: Learning how to apply dictionary data type
 #================================
 
 
