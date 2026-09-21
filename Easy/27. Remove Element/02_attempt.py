@@ -3,7 +3,7 @@
 #   1. Iterate over nums list
 #   2. Compare each words with val
 #   3. If not equal to val, index it to be ith and increase pointer
-#   5. Return pointer
+#   4. Return pointer
 # Refinement: No more unnecessry variables and substitution
 # TakeAway: Learning how to use double pointer method
 #================================
