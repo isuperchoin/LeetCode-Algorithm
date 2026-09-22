@@ -4,7 +4,8 @@
 //   2. Iterate through nums once again from where we left off
 //   3. Check if sum of those two elements of nums are equal to target
 //   4. Return the indices if found
-// Issue: variable comp is declared outside the for loop, which can lead to confusion and potential bugs if the variable is used elsewhere in the code.
+// Refinement: variable comp is declared inside the for loop to limit its scope and improve readability.
+// TakeAway: Learning to write code in C++ and using unordered_map to store the pairs of numbers and their indices for faster lookup.
 //================================
 
 
@@ -15,19 +16,18 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        std::unordered_map<int, int> pairs;
-        int comp;
+        unordered_map<int, int> pairs;
 
         for(int i{0}; i<nums.size(); ++i){
-            comp = target - nums[i];
+            int comp = target - nums[i];
             if(pairs.contains(comp)){
-                return std::vector<int> {pairs[comp],i};
+                return {pairs[comp],i};
             }
             else{
                 pairs[nums[i]] = i;
             }
         }
 
-        return std::vector<int> {};
+        return {};
     }
 };
