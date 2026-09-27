@@ -10,14 +10,14 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
         output = 0
-        lib = {'I':1, 'V':5, 'X':10,'L':50,'C':100,'D':500, 'M':1000}
+        dict = {'I':1, 'V':5, 'X':10,'L':50,'C':100,'D':500, 'M':1000}
         for i in range(len(s)-1):
-            if lib[s[i]] < lib[s[i+1]]:
-                output -= lib[s[i]]
+            if dict[s[i]] < dict[s[i+1]]:
+                output -= dict[s[i]]
             else:
-                output += lib[s[i]]
+                output += dict[s[i]]
 
-        output += lib[s[len(s)-1]]
+        output += dict[s[len(s)-1]]
 
         return output
         
