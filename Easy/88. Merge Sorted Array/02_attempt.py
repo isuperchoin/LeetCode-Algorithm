@@ -4,7 +4,7 @@
 #   2. loop through the nums1 array in reverse order, starting from the end
 #   3. compare the elements pointed by p1 and p2, and place the larger one at the current index of nums1
 #   4. move the pointer of the array from which the element was taken
-#   5. if either p1 or p2 becomes less than 0, prevent them from reaching to index or in might cause index out of range error
+#   5. loop only while p2 >= 0 (remaining nums1 elements are already in place), and check p1 >= 0 before accessing nums1[p1] to avoid index errors
 # Refinement: Simpler structure and less comparison operations
 # TakeAway: Learning how to use two pointers and reverse loop
 #================================

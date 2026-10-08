@@ -1,6 +1,6 @@
 #================================
 # Working process:
-#   1. Iterate over s and filter only lower case alphabets and numbers
+#   1. Iterate over s and filter only alphabets and numbers, converting upper case letters to lower case
 #   2. append each of the letters into a list
 #   3. Compare the list with reversed list
 #   4. If they are equal, return True, else, return False

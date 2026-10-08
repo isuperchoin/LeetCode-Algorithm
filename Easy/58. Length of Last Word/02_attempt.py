@@ -2,7 +2,7 @@
 # Working process:
 #   1. Iterate over s in reversed order
 #   2. If I walk into space, check if count is zero or not
-#   3. If not zero, increase count variable
+#   3. If not zero, return count
 #   4. If it's not space, increase count by one
 #   5. Return count
 # Refinement: Replaced unnecessary list with count variable

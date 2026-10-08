@@ -1,7 +1,7 @@
 #================================
 # Working process:
-#  1. We define a backtracking function that takes the starting index and the current path as parameters.
-#  2. We sort the input list to handle duplicates effectively.
+#  1. We sort the input list to handle duplicates effectively.
+#  2. We define a backtracking function that takes the starting index and the current path as parameters.
 #  3. We iterate through the sorted list, skipping duplicates at each level of recursion.
 #  4. We add the current path to the output list at each step.
 #  5. We recursively call the backtracking function with the next index and the updated path.

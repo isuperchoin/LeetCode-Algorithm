@@ -4,7 +4,7 @@
 #   2. If str[0] is not opening parentheses, return False
 #   3. Iterate over str
 #   4. If it is opening parentheses, append to a list stack
-#   5. If it is not opening parenthesis, check if it is pair with the last element of pair dictionary
+#   5. If it is not opening parenthesis, check if stack is not empty and it is pair with the last element of stack
 #   6. If not, return False
 #   7. If loop succesfully ends, check if stack is empty
 #   8. If it is, return True, otherwise, return False

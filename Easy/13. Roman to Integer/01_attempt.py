@@ -1,6 +1,6 @@
 #================================
 # Working process:
-#   1. Make greek to int dictionary data
+#   1. Make roman to int dictionary data
 #   2. Iterate through s and add each of them to the variable 'output'
 #   3. If smaller number comes before bigger one, subtract the smaller one from output
 # TakeAway: Learning how to use dictionary data type

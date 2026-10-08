@@ -1,8 +1,8 @@
 #================================
 # Working process:
 #   1. Iterate over s in reversed order and append it to temp list
-#   2. If I walk into space, check if we have space in temp
-#   3. If we do, empty the temp list
+#   2. If I walk into space, check if temp is empty or has space in it
+#   3. If it does, empty the temp list
 #   4. Else, return the length of temp list
 #  Issue: Unnecessary list
 #================================

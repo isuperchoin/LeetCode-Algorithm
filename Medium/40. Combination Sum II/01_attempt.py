@@ -1,6 +1,6 @@
 #================================
 # Working process:
-#   1. We define a backtracking function that takes the starting index, the current path, and the current sum as parameters.
+#   1. We sort the candidates so duplicates are next to each other, then define a backtracking function that takes the starting index, the current path, and the current sum as parameters.
 #   2. If the current sum equals the target, we add a copy of the path to the output list and return.
 #   3. If the current sum exceeds the target, we return to avoid unnecessary calculations.
 #   4. We iterate through the candidates from the starting index to the end, skipping duplicates to avoid repeated combinations.

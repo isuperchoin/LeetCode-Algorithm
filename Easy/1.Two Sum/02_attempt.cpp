@@ -1,9 +1,9 @@
 //================================
 // Working process:
-//   1. Iterate through nums
-//   2. Iterate through nums once again from where we left off
-//   3. Check if sum of those two elements of nums are equal to target
-//   4. Return the indices if found
+//   1. Iterate through nums once
+//   2. Calculate comp as the difference between target and the current element
+//   3. If comp is already in the unordered_map pairs, return its index and the current index
+//   4. Otherwise, store the current element as a key with its index as the value
 // Refinement: variable comp is declared inside the for loop to limit its scope and improve readability.
 // TakeAway: Learning to write code in C++ and using unordered_map to store the pairs of numbers and their indices for faster lookup.
 //================================

@@ -2,7 +2,7 @@
 # Working process:
 #   1. Iterate over nums list
 #   2. Compare each words with val
-#   3. If not equal to val, index it to be ith and increase count
+#   3. If not equal to val, place it at the pointer index and increase both pointer and count
 #   4. If equal to val, subsitute it with '_'
 #   5. Return count
 #  Issue: Unnecessary variable and substitution

@@ -2,7 +2,7 @@
 # Working process:
 #   1. Iterate through nums with double loop variable
 #   2. Set comp variable defined as difference of target and list nums's element
-#   3. Return the list of comp and i if comp is in the dictionary memo
+#   3. Return the list of comp's index and i if comp is in the dictionary memo
 #   4. Else, put that element in the memo as a key
 # Refinement: Shorter runtime by using only one loop
 # TakeAway: Learning how to apply dictionary data type
